@@ -18,12 +18,12 @@ const card = () => {
                 </button>
             </div>
             <div className="weather">
-            <h2 className='city'>city</h2>
-            <h1 className="temp">temp</h1>
-            <img src="" alt="" class="icon"/>
-            <div className="description">description</div>
-            <div className="humidity">humidity</div>
-            <div className="wind">wind</div>
+              <h2 className='city'>city</h2>
+              <h1 className="temp">temp</h1>
+              <img src="" alt="" class="icon"/>
+              <div className="description">description</div>
+              <div className="humidity">humidity</div>
+              <div className="wind">wind</div>
             </div>
         </div>
     </div>
