@@ -1,5 +1,10 @@
 
-let weather = {
+import React from 'react'
+import Card from './components/Card'
+
+const script = () => {
+  return (
+    (weather)= {
    apiKey: "bd61f529c8322563f96637e9c1dfdb69",
    fetchWeather: function (city) {
       fetch(
@@ -9,7 +14,7 @@ let weather = {
       + this.apiKey
       )
       .then((response) => response.json())
-      .then((data) => document.querySelector(data));
+      .then((data) => console.log(data));
    },
 
    displayWeather: function(data) {
@@ -19,4 +24,9 @@ let weather = {
       const{speed} = data.wind;
       document.querySelector(".city").innerText = "Weather in " + name;
    },
-};
+}
+  )
+}
+<Card/>
+
+export default script
