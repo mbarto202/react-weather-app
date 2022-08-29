@@ -7,6 +7,7 @@ const card = () => {
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,500;0,600;1,300&display=swap" rel="stylesheet"/>
+        <script src="/script.js" defer></script>
         <div className='card'>
             <div className='search'>
                 <input type={'text'} className='search-bar' placeholder='Search'></input>

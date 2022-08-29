@@ -5,6 +5,7 @@ const Head = () => {
   return (
     <div>
         <title>Weather App</title>
+        <script src="/script.js" defer></script>
     </div>
   )
 }
