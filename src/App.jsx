@@ -42,7 +42,7 @@ const App = () => {
                 <p>{data.name}</p>
               </h2>
               <h1 className="temp"> 
-                {data.main ? <p>Temp: {data.main.temp}°F</p> : null}
+                {data.main ? <p>Temperature: {data.main.temp}°F</p> : null}
               </h1>
               <img src="" alt="" class="icon"/>
               <div className="description">description</div>
