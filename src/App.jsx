@@ -5,6 +5,7 @@ import axios from 'axios'
 const App = () => {
   const [data,setData] = useState({})
   const [city,setCity] = useState('')
+
   const apiKey = "bd61f529c8322563f96637e9c1dfdb69"
   const url = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial&appid=' + apiKey;
   
@@ -45,9 +46,17 @@ const App = () => {
                 {data.main ? <p>{data.main.temp}°F</p> : null}
               </h1>
               <img src="" alt="" class="icon"/>
-              <div className="description">description</div>
-              <div className="humidity">humidity</div>
-              <div className="wind">wind</div>
+              <div className='moreInfo'>
+                <div className="description">
+                  {data.weather ? <p>Description: {data.weather[0].description}</p> : null}
+                </div>
+                <div className="humidity">
+                  {data.main ? <p>Humidity: {data.main.humidity}%</p> : null}
+                </div>
+                <div className="wind">
+                {data.wind ? <p>Wind Speed: {data.wind.speed}MPH</p> : null}
+                </div>
+              </div>
             </div>
         </div>
     </div>

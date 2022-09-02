@@ -57,6 +57,32 @@ button {
   transition: var(--transition);
 }
 
-h1.temp {
-  margin: 0;
+.city {
+  text-align: center;
+  position: relative;
+  top: 20px;
 }
+
+.temp {
+  position: relative;
+  text-align: center;
+}
+
+.moreInfo p{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: medium;
+  padding-bottom: 4px;
+}
+
+.moreInfo {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+  padding-top: 0.1px;
+  padding-bottom: 0.1px;
+  bottom: 10px;
+}
+
