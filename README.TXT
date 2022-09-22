@@ -1,4 +1,4 @@
-===Portfolio===
+===Weather App===
 Github Link: https://github.com/mbarto202/react-weather-app
 -------------------------------------------------------------------------------------------------------
 ==Table of Contents==
