@@ -1,5 +1,17 @@
 header {
-  background-color: rgba(31, 28, 28, 0.452);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  top: -360px;
+  left: 130px;
+  background-color: rgba(0, 0, 0, .8);
+  color: white;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  width: 200px;
 }
 
 body {
@@ -15,9 +27,6 @@ body {
   background-image: url('https://source.unsplash.com/1600x900/?landscape')
 }
 
-.page {
-  
-}
 
 .card {
   border: 2px solid rgb(255, 255, 255);
