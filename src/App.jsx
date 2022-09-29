@@ -30,7 +30,7 @@ const App = () => {
         <script src="/script.js" defer></script>
         <div className='card'>
             <div className='search'>
-                <input type={'text'} className='search-bar' placeholder='Enter Location' value = {city} onChange = {event => setCity(event.target.value)} onKeyPress = {searchCity}/>
+                <input type={'text'} className='search-bar' placeholder='Enter City' value = {city} onChange = {event => setCity(event.target.value)} onKeyPress = {searchCity}/>
             </div>
             <div className="weather">
               <h2 className='city'>
